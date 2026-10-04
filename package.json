@@ -1,0 +1,13 @@
+{
+  "name": "volleyball-tournament",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mixed-teams volleyball tournament: max-dispersion scheduler, live leaderboard, organizer-only editing.",
+  "scripts": {
+    "test": "node tests/scheduler.test.js && node tests/e2e.test.js",
+    "serve": "npx serve public"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.0"
+  }
+}
